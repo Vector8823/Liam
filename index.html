@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conmemoración a Liam Payne</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Audio que se intentará reproducir -->
+  <audio id="backgroundAudio" loop>
+    <source src="TE JURO QUE TE AMO.mp3" type="audio/mp3">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <div class="overlay"></div>
+<div class="fondo-superpuesto"></div>
+
+
+
+  <header>
+    <h1>Conmemorando a Liam Payne</h1>
+    <p>Una estrella que iluminó a millones de corazones 🎤✨</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img src="LIAM 1.jpg" alt="Liam Payne sonriente">
+      <p>
+        Liam James Payne, nacido el 29 de agosto de 1993, es más que un cantante: es un alma noble que dio vida a millones de sueños con su voz, su sonrisa y su pasión. Esta página es un homenaje lleno de amor y gratitud por todo lo que nos regaló.
+      </p>
+    </section>
+
+    <section class="frases">
+      <h2>Frases Memorables</h2>
+      <div class="frase">"No importa lo lejos que estés, la música siempre nos conecta."</div>
+      <div class="frase">"Gracias por seguir creyendo en mí, incluso cuando yo no lo hacía."</div>
+      <div class="frase">"One Direction fue una parte mágica de mi vida. Gracias por ser parte de la historia."</div>
+    </section>
+
+    <section class="galeria">
+      <h2>Recuerdos en imágenes</h2>
+      <div class="imagenes">
+        <img src="LIAM JOVEN.jpg" alt="Liam joven en concierto">
+        <img src="LIAM CON FANS.jpg" alt="Liam con fans">
+        <img src="LIAM CON ONE DIREECTION.jpg" alt="Liam con One Direction">
+      </div>
+    </section>
+
+    <section class="curiosidades">
+      <h2>Curiosidades sobre Liam 💫</h2>
+      <ul>
+        <li>Le rechazaron en *The X Factor* en 2008, pero regresó en 2010 para formar parte de One Direction.</li>
+        <li>Es cinturón negro en boxeo 🥋</li>
+        <li>Fue el miembro más responsable del grupo, apodado "Daddy Direction" por sus compañeros.</li>
+        <li>Su primer sencillo como solista, "Strip That Down", fue un éxito mundial.</li>
+      </ul>
+    </section>
+
+    <section class="agradecimiento">
+      <h2>Gracias, Liam</h2>
+      <p>
+        Gracias por tu voz, por tus palabras, por tu apoyo, por tus sonrisas, por todo lo que has dado. Esta conmemoración es un pequeño gesto para honrar un gran corazón.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Aun que el ya no esta, yo estare para ti</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <div class="contenido">
+  <button id="verLiam">Ver a Liam Payne</button>
+</div>
+  <script>
+  const boton = document.getElementById('verLiam');
+  const fondo = document.querySelector('.fondo-superpuesto');
+
+  boton.addEventListener('click', () => {
+    fondo.style.opacity = '1';
+  });
+</script>
+</body>
+</html>
